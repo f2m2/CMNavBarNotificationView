@@ -57,6 +57,7 @@ typedef void (^CMNotificationSimpleAction)(id);
                                       detail:(NSString *)detail
                                andTouchBlock:(CMNotificationSimpleAction)block;
 
++ (void)showNextNotification;
 + (void)setBackgroundImage:(UIImage *)image;
 - (void)setBackgroundColor:(UIColor *)color;
 - (void)setTextColor:(UIColor *)color;
